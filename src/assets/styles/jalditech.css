@@ -1,0 +1,47 @@
+.j-container{
+    margin-top: 10vw;
+    display: grid;
+    grid-template-columns: 40vw 60vw;
+}
+
+.j-image{
+    width:60vw;
+    margin-left: -10vw;
+    margin-top: 3vw;
+    height: 100%;
+}
+
+.j-h1{
+    font-size: 2.5vw;
+}
+
+.j-sec1{
+    border: 2px solid rgba(128, 128, 128, 0.267);
+    border-radius: 10px;
+    padding: 30px  30px;
+    padding-left: 72px;
+    margin-right: 4vw;
+    margin-top: 2vw;
+    position: relative;
+}
+
+.j-sec1:hover{
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.135);
+}
+
+.j-sec1img{
+    position: absolute;
+    top: 51%;
+    transform: translate(-4%,-55%);
+    left: 4.5%;
+
+}
+
+.j-secp{
+ font: 1vw;
+}
+
+.j-h2{
+    font-size: 2vw;
+}

@@ -1,0 +1,160 @@
+.t-container{
+    background-color: azure;
+    margin-bottom: 5vw;
+}
+
+.t-sec{
+width: 60vw;
+margin-left: 5vw;
+padding-top: 5vw;
+
+}
+
+.tsec2-h4{
+ font-size: 15px;
+ padding-bottom: 9px;
+ font-weight: 900;
+}
+.tgrid{
+    display: grid;
+    grid-template-columns: 30vw 70vw;
+}
+
+.t-sec3-img{
+    width: 60vw;
+    margin-top: 10vw;
+    margin-left: 5vw;
+    border: 2px solid blue;
+}
+.t-sec-h1{
+ font-size: 3vw;
+}
+.t-sec-p{
+    font-size: 1.5vw;
+    padding-top: 1.5vw;
+}
+.t-sec-span{
+    color: blue;
+    text-decoration: underline;
+}
+
+.t-sec2{
+    margin-top: 5vw;
+    width: 250px;
+    border: 2px solid rgba(128, 128, 128, 0.341);
+    border-radius: 15px;
+    padding: 3vw;
+    margin-left: 5vw;
+    box-shadow: rgba(9, 30, 66, 0.15) 0px 0.5rem 1rem 0px;
+}
+
+.t-sec2:hover{
+    background: linear-gradient(to right,rgba(0, 183, 255, 0.788) 0%, rgba(0, 183, 255, 0.788) 6%, white 6%,
+ white 100%
+      );
+      cursor: pointer;
+}
+.t-black{
+    background-color: black;
+    margin-top: 2vw;
+    width: 100vw;
+}
+
+.t-black-h2{
+    text-align: center;
+    padding-top: 5vw;
+    font-size: 3vw;
+    color: white;
+}
+.t-black-p{
+    text-align: center;
+    padding-top: 2vw;
+    font-size: 2vw;
+    color: white;
+}
+.f-button {
+    display: inline-block;
+    border-radius: 100px;
+    background-color: blue;
+    border: 0.8vw solid transparent;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.4vw;
+    width: 15vw;
+    transition: all 0.5s;
+    cursor: pointer;
+    height: 3.5vw;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 200;
+    margin: 1vw 0vw;
+    margin-bottom: 5vw;
+    margin-top: 2vw;
+    margin-left: 40vw;
+}
+
+.f-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.f-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.f-button:hover span {
+    padding-right: 25px;
+}
+
+.f-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+@media  screen and (max-width:1100px) {
+    
+    .tgrid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .t-sec3-img{
+        width: 90vw;
+        margin: 5vw;
+        border: 2px solid blue;
+    }
+    .t-sec2:hover{
+        background: linear-gradient(to right,rgba(0, 183, 255, 0.788) 0%, rgba(0, 183, 255, 0.788) 2%, white 2%,
+     white 100%
+          );
+          cursor: pointer;
+    }
+    .t-sec2{
+        margin-top: 5vw;
+        width: 85vw;
+        border: 2px solid rgba(128, 128, 128, 0.341);
+        border-radius: 15px;
+        padding: 3vw;
+        margin-left: 5vw;
+        box-shadow: rgba(9, 30, 66, 0.15) 0px 0.5rem 1rem 0px;
+    }
+    .t-sec{
+        width: 70vw;
+        margin-left: 5vw;
+        padding-top: 5vw;
+        
+        }
+    .t-sec-h1{
+        font-size: 5vw;
+       }
+       .t-sec-p{
+           font-size: 2vw;
+           padding-top: 1.5vw;
+       }
+    
+}

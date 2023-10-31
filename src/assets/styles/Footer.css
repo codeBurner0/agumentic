@@ -1,0 +1,47 @@
+.f-links{
+    color:grey;
+    font-size: 1vw;
+}
+
+.f-links:hover{
+    cursor: pointer;
+    color: black;
+    font-weight: 900;
+    transform: scale(1.2);
+}
+.f-main{
+    margin: 50px 30px 10px 30px;
+    /* display: flex; */
+}
+
+.f-main .f-parts{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.f-parts ul li{
+    margin-bottom:10px;
+}
+
+
+.f-parts Link{
+    text-decoration: none;
+}
+
+.f-last{
+    margin:30px;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+
+.f-icons {
+    width:23px;
+    height:23px;
+    margin:5px
+}
